@@ -1,0 +1,290 @@
+@font-face {
+    font-family:Baijamjuree-Regular ;
+    src: url(BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family:Baijamjuree-semibold;
+    src: url(BaiJamjuree-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+P{
+    color:hsl(210, 10%, 33%) ;
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+header{
+    background-image: url(../images/bg-header-dektop.png);
+}
+    
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 90px;
+    padding-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraph h1{
+    text-align: center;
+    font-family: Baijamjuree-semibold;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ main p {
+    text-align: center;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    /* padding: 15px; */
+    width: 70%;
+    font-family: Baijamjuree-Regular;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+ }
+
+#anchor{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    
+}
+
+.first{
+    background-color: hsl(171,66%,44%);
+    border: 1px solid hsl(171,66%,44%);
+    color: #fff;
+    border-radius: 10px;
+
+
+}
+.second{
+    background-color:hsl(233,100%,69%);
+    border : 1px solid hsl(233,100%,69%);
+    color: #fff;
+    border-radius: 10px;
+    
+
+
+}
+
+
+#anchor a {
+    text-align: center;
+    font-size: 20px;
+    font-family: Baijamjuree-Regular;
+    text-decoration: none;
+    padding: 20px 16px;
+    border-radius: 20px;
+}
+
+main h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Baijamjuree-semibold; 
+}
+
+article {
+    display: flex;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+
+}
+
+#details h3 {
+font-size: 30px;
+font-family: Baijamjuree-semibold;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#details p{
+    color:hsl(210, 10%, 33%) ;
+    font-family: Baijamjuree-Regular;
+    font-size: 18px;
+    width: 70%;
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section h3{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: Baijamjuree-semibold;
+
+}
+
+section p{
+    text-align: center;
+    font-family: Baijamjuree-Regular;
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+
+}
+
+section img {
+    align-self: center;
+}
+
+aside{
+    display: flex;
+}
+
+aside h2{
+    font-size: 30px;
+    font-family:Baijamjuree-semibold ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+aside p{
+    font-size: 20px;
+    font-family:Baijamjuree-Regular ;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+#pink img, #maroon img, #white img{
+    width: 60px;
+    align-self: center;
+    padding-bottom: 30px;
+ 
+}
+
+
+figure{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    
+}
+
+summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+summary h2{
+    font-family:Baijamjuree-semibold ;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+summary p{
+    font-family:Baijamjuree-Regular ;
+    font-size: 20px;
+}
+
+#download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+#download a {
+    
+    font-size: 20px;
+    font-family: Baijamjuree-Regular;
+    text-decoration: none;
+    padding: 20px 16px;
+    border-radius: 20px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+
+#makena {
+    padding-left: 40px;
+    /* font-size: 30px; */
+}
+
+#makena img {
+    width: 70px;
+}
+
+#text {
+    display: flex;
+    gap: 70px;
+  
+}
+
+
+#text p {
+    justify-content: center;
+    color: hsl( Baijamjuree-Regular);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ending {
+    align-self: center;
+    font-size: 20px;
+    justify-content: space-evenly;
+
+}
+
+
+a:hover{
+    background-color:  hsl(233,100%,69%) ;
+    color:white 
+ } 
+
